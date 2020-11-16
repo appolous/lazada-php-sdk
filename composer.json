@@ -1,0 +1,27 @@
+{
+    "name": "appolous/lazada-php-sdk",
+    "description": "A Lazada PHP SDK for Laravel",
+    "keywords": [
+        "lazada",
+        "laravel"
+    ],
+    "homepage": "https://github.com/appolous/lazada-php-sdk",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Appolous Team",
+            "email": "hello@appolous.com",
+            "homepage": "https://www.appolous.com",
+            "role": "Developer"
+        },
+    ],
+    "require": {
+        "php": "^7.2",
+        "laravel/framework": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Lazada\\": "src"
+        }
+    }
+}
