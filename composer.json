@@ -13,7 +13,7 @@
             "email": "hello@appolous.com",
             "homepage": "https://www.appolous.com",
             "role": "Developer"
-        },
+        }
     ],
     "require": {
         "php": "^7.2",
