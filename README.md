@@ -1,8 +1,8 @@
-# Lazada PHP SDK for Laravel 8.x
+# Lazada PHP SDK for Laravel
 
 This PHP SDK is available to download at https://open.lazada.com
 
-Support Laravel 7.x, 8.x, 9.x
+Support Laravel 7.x / 8.x / 9.x
 
 
 ## Installation
