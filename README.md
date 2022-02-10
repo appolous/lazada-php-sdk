@@ -12,6 +12,32 @@ Via Composer
 `composer require appolous/lazada-php-sdk`
 
 
+## How To Use 
+
+```php
+use Lazada\LazopClient;
+use Lazada\LazopRequest;
+
+
+$lazadaUrl = "https://api.lazada.com.my/rest";
+$apiKey = "YOURAPIKEY";
+$apiSecret = "YOURAPISECRET";
+
+$lazOp = new LazopClient($lazadaUrl, $apiKey, $apiSecret);
+$lazRequest = new LazopRequest('/category/tree/get', 'GET');
+
+// Request Params
+$lazRequest->addApiParam($key, $param);
+
+// Upload files
+$lazRequest->addFileParam('image', file_get_contents($file));
+
+// Process API 
+$response = $lazOp->execute($lazRequest, $token); // JSON Response
+```
+You can find the required parameters here: https://open.lazada.com/doc/api.htm
+
+
 ## Credits
 
 [Ibnu Halim Mustofa](https://github.com/ibnuhalimm)
