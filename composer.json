@@ -1,6 +1,6 @@
 {
     "name": "appolous/lazada-php-sdk",
-    "description": "A Lazada PHP SDK for Laravel",
+    "description": "A Fork of Lazada PHP SDK for Laravel ",
     "keywords": [
         "lazada",
         "laravel"
@@ -13,6 +13,12 @@
             "email": "hello@appolous.com",
             "homepage": "https://www.appolous.com",
             "role": "Developer"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:leadingedgehealth/lazada-php-sdk.git"
         }
     ],
     "require": {
