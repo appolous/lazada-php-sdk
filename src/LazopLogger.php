@@ -2,13 +2,21 @@
 
 namespace Lazada;
 
-use Illuminate\Support\Facades\Log;
+use Psr\Log\LoggerInterface;
 
 class LazopLogger
 {
+    protected $logger;
+
+    public function __construct(LoggerInterface $logger = null)
+    {
+        $this->logger = $logger;
+    }
+
 	public function log($logData)
 	{
-		Log::error($logData);
+        if ($this->logger) {
+		    return $this->logger->error($logData);
+        }
 	}
 }
-?>
