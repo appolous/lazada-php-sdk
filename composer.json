@@ -1,6 +1,8 @@
 {
     "name": "appolous/lazada-php-sdk",
     "description": "A Fork of Lazada PHP SDK for Laravel ",
+    "type": "library",
+    "minimum-stability": "dev",
     "keywords": [
         "lazada",
         "laravel"
@@ -15,15 +17,10 @@
             "role": "Developer"
         }
     ],
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "git@github.com:leadingedgehealth/lazada-php-sdk.git"
-        }
-    ],
     "require": {
         "php": "^7.3|^8.0",
-        "illuminate/support": "^7.0|^8.0|^9.0|^10.0"
+        "illuminate/support": "^7.0|^8.0|^9.0|^10.0",
+        "psr/log": "^1.1"
     },
     "autoload": {
         "psr-4": {
