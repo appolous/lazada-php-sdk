@@ -1,6 +1,7 @@
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/appolous/lazada-php-sdk.svg?style=flat-square)](https://packagist.org/packages/appolous/lazada-php-sdk)
-[![Total Downloads](https://img.shields.io/packagist/dt/appolous/lazada-php-sdk.svg?style=flat-square)](https://packagist.org/packages/appolous/lazada-php-sdk)
-[![MIT Licensed](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
+[![Latest Stable Version](https://poser.pugx.org/appolous/lazada-php-sdk/v/stable)](https://packagist.org/packages/appolous/lazada-php-sdk)
+[![Total Downloads](https://poser.pugx.org/appolous/lazada-php-sdk/downloads)](https://packagist.org/packages/appolous/lazada-php-sdk)
+[![MIT Licensed](https://poser.pugx.org/appolous/lazada-php-sdk/license)](LICENSE.md)
+[![Buy Me A Coffee](https://img.shields.io/badge/-buy_me_a%C2%A0coffee-gray?logo=buy-me-a-coffee)](https://buymeacoffee.com/appolous)
 
 # Lazada PHP SDK for Laravel
 
@@ -46,6 +47,7 @@ You can find the required parameters here: https://open.lazada.com/apps/doc/api
 
 - [Alan Yeong](https://github.com/alanyeong)
 - [Ibnu Halim Mustofa](https://github.com/ibnuhalimm)
+- [Afiq Sazlan](https://github.com/afiqsazlan)
 
 ## License
 
