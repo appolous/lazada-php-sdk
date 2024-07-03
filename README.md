@@ -1,3 +1,7 @@
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/appolous/lazada-php-sdk.svg?style=flat-square)](https://packagist.org/packages/appolous/lazada-php-sdk)
+[![Total Downloads](https://img.shields.io/packagist/dt/appolous/lazada-php-sdk.svg?style=flat-square)](https://packagist.org/packages/appolous/lazada-php-sdk)
+[![MIT Licensed](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
+
 # Lazada PHP SDK for Laravel
 
 This PHP SDK is available to download at https://open.lazada.com
@@ -35,9 +39,14 @@ $lazRequest->addFileParam('image', file_get_contents($file));
 // Process API 
 $response = $lazOp->execute($lazRequest, $token); // JSON Response
 ```
-You can find the required parameters here: https://open.lazada.com/doc/api.htm
+You can find the required parameters here: https://open.lazada.com/apps/doc/api
 
 
 ## Credits
 
-[Ibnu Halim Mustofa](https://github.com/ibnuhalimm)
+- [Alan Yeong](https://github.com/alanyeong)
+- [Ibnu Halim Mustofa](https://github.com/ibnuhalimm)
+
+## License
+
+The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
