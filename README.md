@@ -7,7 +7,7 @@
 
 This PHP SDK is available to download at https://open.lazada.com
 
-Support Laravel 7.x / 8.x / 9.x / 10.x / 11.x
+Support Laravel 7.x / 8.x / 9.x / 10.x / 11.x / 12.x
 
 
 ## Installation
